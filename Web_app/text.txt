@@ -1,0 +1,4 @@
+http://localhost/esp_mess_save.php?pass=my_pass&esp_mess=bok
+
+2022-06-10 17:58:00 t:24.80C,rh:61.00,hi:24.93C
+

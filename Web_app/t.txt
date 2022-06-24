@@ -1,0 +1,4 @@
+http://localhost/esp_t_save.php?pass=my_pass&esp_mess=10.10.10.10
+
+2022-06-11 17:55:35 10.10.10.10
+

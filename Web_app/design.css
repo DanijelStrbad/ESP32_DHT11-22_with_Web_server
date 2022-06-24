@@ -1,0 +1,80 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout */
+
+.wrapper {
+	display: grid;
+	grid-gap: 15px;
+	
+	grid-template-columns: 15% 10% 60% 10% 5%;
+	grid-template-rows: 125px auto 150px;
+	font-family: "Lucida Console", "Courier New", monospace;;
+	color: #531200;
+	font-weight: bold;
+	background-color: #ecd9c6;
+}
+
+.header0 {
+	grid-column: 1 / 5;			/* [2, 5) => [2, 4] */
+	grid-row: 1;
+	
+	text-align: center;
+	background-color: #ab8f5c;
+}
+
+.nav0 {
+	grid-column: 2;
+	grid-row: 2;
+	
+	text-align: center;
+	background-color: #ab8f5c;
+}
+
+.article0 {
+	grid-column: 3;
+	grid-row: 2;
+	
+	text-align: left;
+	color: #000000;
+	background-color: #f2eecb;
+	padding-left: 25px;
+	overflow-wrap: break-word;
+	overflow: auto;
+}
+
+.article1 {
+	grid-column: 3;
+	grid-row: 2;
+	
+	text-align: left;
+	background-color: #ab8f5c;
+	padding-left: 25px;
+	overflow-wrap: break-word;
+	overflow: auto;
+}
+
+.footer0 {
+	grid-column: 1 / 5;
+	grid-row: 3;
+	
+	text-align: center;
+	background-color: #ab8f5c;
+}
+
+ /* unvisited link */
+a:link {
+  color: #003300;
+}
+
+/* visited link */
+a:visited {
+  color: #003300;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f2c461;
+}
+
+/* selected link */
+a:active {
+  color: #00cc00;
+}
